@@ -48,7 +48,7 @@ This system is therefore optimized to **prioritize cancer recall**, accepting a 
 
 ### Image Dimension Analysis
 
-![Image Dimensions](img_dimensions.png)
+![Image Dimensions](reports/img_dimensions.png)
 
 **Finding:**  
 Both classes show similar image dimension distributions, confirming that image size does not introduce class-specific bias.
@@ -59,7 +59,7 @@ Both classes show similar image dimension distributions, confirming that image s
 
 ### Class Distribution
 
-![Class Distribution](ClassDistribution.png)
+![Class Distribution](reports/ClassDistribution.png)
 
 **Key Observations:**
 - Leukemia (ALL) samples dominate the dataset
@@ -70,7 +70,7 @@ This motivated the use of **class weighting** during training.
 
 ### Sample Image Inspection
 
-![Sample Images](sample_images.png)
+![Sample Images](reports/sample_images.png)
 
 **Insight:**  
 Visual differences between ALL and HEM cells are subtle, highlighting the complexity of the classification task and the need for deep feature extraction.
@@ -125,7 +125,7 @@ Validation accuracy remained consistently higher than test accuracy. This was in
 
 ### Confusion Matrix
 
-![Confusion Matrix](final_metrics.png)
+![Confusion Matrix](reports/final_metrics.png)
 
 **Interpretation:**
 - False positives are intentionally tolerated
@@ -134,7 +134,7 @@ Validation accuracy remained consistently higher than test accuracy. This was in
 
 ### ROC and Precision–Recall Curves
 
-![ROC and PR Curves](roc_pr_curves.png)
+![ROC and PR Curves](reports/roc_pr_curves.png)
 
 **Insights:**
 - ROC-AUC indicates good class separability
@@ -145,7 +145,7 @@ Validation accuracy remained consistently higher than test accuracy. This was in
 
 ## 8. Key Findings
 
-![Final Summary](FINAL_SUMMARY.png)
+![Final Summary](reports/FINAL_SUMMARY.png)
 
 - Class imbalance significantly impacts learning
 - Manual class weighting improves test-time stability
@@ -159,7 +159,7 @@ Validation accuracy remained consistently higher than test accuracy. This was in
 
 The system includes an interactive web-based dashboard built using **Gradio**.
 
-![Dashboard View](dashboard.png)
+![Dashboard View](reports/dashboard.png)
 
 ### Dashboard Features
 
