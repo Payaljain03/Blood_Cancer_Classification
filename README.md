@@ -159,7 +159,7 @@ Validation accuracy remained consistently higher than test accuracy. This was in
 
 The system includes an interactive web-based dashboard built using **Gradio**.
 
-![Dashboard View](reports/dashboard.png)
+![Dashboard View](reports/DashboardView.png)
 
 ### Dashboard Features
 
